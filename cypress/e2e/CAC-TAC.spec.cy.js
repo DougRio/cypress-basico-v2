@@ -303,7 +303,7 @@ it('Verifica que a política de privaciade abre em outra aba', () => {
   })
 
 
-  it.only('Acessa a pagina da política de privaciade removendo o target e entao clicando na pagina', () => {
+  it('Acessa a pagina da política de privaciade removendo o target e entao clicando na pagina', () => {
     cy.contains('a','Política de Privacidade')
       .invoke('removeAttr','target')
       .click()
